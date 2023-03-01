@@ -15,7 +15,7 @@ use App\Events\FormSubmitted;
 Route::group(['middleware' => ['auth']], function() {
     
     Route::get('/', function () {
-        return view('backend.pages.hris.dashboard');
+        return view('backend.pages.payroll.transaction.employee.dashboard');
     });
     
     Route::get('/payslip', function () {

@@ -19,137 +19,6 @@
                 MAIN
             </li>
             <li class="sidebar-item">   
-                <a href="/hris/dashboard" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-tachometer-alt"></i> <span class="align-middle">OVERVIEW</span>
-                    </span>
-                </a>
-                <a href="/recruitment/dashboard" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-window-restore"></i> <span class="align-middle">RECRUITMENT</span>
-                    </span>
-                </a>
-                <a href="#employee" data-toggle="collapse" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-user"></i> <span class="align-middle">EMPLOYEE</span>
-                    </span>
-                </a>
-                <ul id="employee" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-                    <li class="list-title">EMPLOYEE</li>  
-                    <li class="sidebar-item"><a class="sidebar-link" href="/hris/employee-information">EMPLOYEE PROFILE</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/payrun">PAYROLL</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/hris/201-file">201 FILES</a></li>
-                </ul>
-            </li>
-            
-            <li class="sidebar-header">
-                DOCUMENTS   
-            </li>
-
-            <li class="sidebar-item">
-                <a href="#dashboard" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-file-contract"></i> <span class="align-middle">CONTRACTS</span>
-                    </span>
-                </a>
-                <a href="#dashboard" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-clipboard-check"></i> <span class="align-middle">POLICIES</span>
-                    </span>
-                </a>
-                <a href="#dashboard" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fab fa-fw fa-wpforms"></i> <span class="align-middle">FORMS</span>
-                    </span>
-                </a>
-                <a href="#dashboard" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-archive"></i> <span class="align-middle">ARCHIVE</span>
-                    </span>
-                </a>
-            </li>
-
-            <li class="sidebar-item">
-                
-            </li>
-
-            <li class="sidebar-header">
-                CONCERNS
-            </li>
-
-            <li class="sidebar-item">   
-                <a href="#dashboard" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-handshake"></i> <span class="align-middle">PAYROLL DISPUTES</span>
-                    </span>
-                </a>
-                <a href="#dashboard" class="sidebar-link collapsed">
-                      <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-exclamation-circle"></i> <span class="align-middle">INCIDENT REPORTS</span>
-                    </span>
-                </a>
-            </li>
-            {{-- <li class="sidebar-item">
-                <a href="#setup" data-toggle="collapse" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-user"></i> <span class="align-middle">COMPANY</span>
-                    </span>
-                </a>
-                <ul id="setup" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-                    <li class="list-title">COMPANY SETUP</li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/company-profile">COMPANY PROFILE</a></li>
-                </ul>
-            </li>
-            <li class="sidebar-item">
-                <a href="#organizational_setup" data-toggle="collapse" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-list-alt"></i> <span class="align-middle">ORGANIZATION</span>
-                    </span>
-                </a>
-                <ul id="organizational_setup" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-                    <li class="list-title">ORGANIZATIONAL SETUP</li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/classes">CLASSES</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/department">DEPARTMENTS</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/position">POSITIONS</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/leave-type">LEAVE TYPES</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/benefits">BENEFITS</a></li>
-                </ul>
-            </li>
-            <li class="sidebar-item">
-                <a href="#payroll_setup" data-toggle="collapse" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-list-alt"></i> <span class="align-middle">PAYROLL</span>
-                    </span>
-                </a>
-                <ul id="payroll_setup" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-                    <li class="list-title">PAYROLL SETUP</li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/payroll_calendar">PAYROLL CALENDAR</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/earnings">EARNINGS</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/work_assignments">WORK ASSIGNMENTS</a></li>
-                </ul>
-            </li>
-            <li class="sidebar-item">
-                <a href="#employee_setup" data-toggle="collapse" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-list-alt"></i> <span class="align-middle">EMPLOYEE</span>
-                    </span>
-                </a>
-                <ul id="employee_setup" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-                    <li class="list-title">EMPLOYEE SETUP</li>
-                </ul>
-            </li>
-            <li class="sidebar-item">
-                <a href="#roles_permission" data-toggle="collapse" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-list-alt"></i> <span class="align-middle">ACCESS</span>
-                    </span>
-                </a>
-            </li> --}}
-            
-            {{-- <li class="sidebar-header">
-                USER
-            </li>
-            <li class="sidebar-item">   
                 <a href="#employee_dashboard" data-toggle="collapse" class="sidebar-link collapsed">
                     <span class="item">
                         <i class="align-middle mr-2 fas fa-fw fa-tachometer-alt"></i> <span class="align-middle">MAIN</span>
@@ -209,7 +78,65 @@
                     <li class="list-title">REPORTS</li>
                     <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/employee_reports">EMPLOYEE REPORTS</a></li>
                 </ul>
+            </li>
+            {{-- <li class="sidebar-item">
+                <a href="#setup" data-toggle="collapse" class="sidebar-link collapsed">
+                    <span class="item">
+                        <i class="align-middle mr-2 fas fa-fw fa-user"></i> <span class="align-middle">COMPANY</span>
+                    </span>
+                </a>
+                <ul id="setup" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+                    <li class="list-title">COMPANY SETUP</li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/company-profile">COMPANY PROFILE</a></li>
+                </ul>
+            </li>
+            <li class="sidebar-item">
+                <a href="#organizational_setup" data-toggle="collapse" class="sidebar-link collapsed">
+                    <span class="item">
+                        <i class="align-middle mr-2 fas fa-fw fa-list-alt"></i> <span class="align-middle">ORGANIZATION</span>
+                    </span>
+                </a>
+                <ul id="organizational_setup" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+                    <li class="list-title">ORGANIZATIONAL SETUP</li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/classes">CLASSES</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/department">DEPARTMENTS</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/position">POSITIONS</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/leave-type">LEAVE TYPES</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/benefits">BENEFITS</a></li>
+                </ul>
+            </li>
+            <li class="sidebar-item">
+                <a href="#payroll_setup" data-toggle="collapse" class="sidebar-link collapsed">
+                    <span class="item">
+                        <i class="align-middle mr-2 fas fa-fw fa-list-alt"></i> <span class="align-middle">PAYROLL</span>
+                    </span>
+                </a>
+                <ul id="payroll_setup" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+                    <li class="list-title">PAYROLL SETUP</li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/payroll_calendar">PAYROLL CALENDAR</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/earnings">EARNINGS</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/work_assignments">WORK ASSIGNMENTS</a></li>
+                </ul>
+            </li>
+            <li class="sidebar-item">
+                <a href="#employee_setup" data-toggle="collapse" class="sidebar-link collapsed">
+                    <span class="item">
+                        <i class="align-middle mr-2 fas fa-fw fa-list-alt"></i> <span class="align-middle">EMPLOYEE</span>
+                    </span>
+                </a>
+                <ul id="employee_setup" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+                    <li class="list-title">EMPLOYEE SETUP</li>
+                </ul>
+            </li>
+            <li class="sidebar-item">
+                <a href="#roles_permission" data-toggle="collapse" class="sidebar-link collapsed">
+                    <span class="item">
+                        <i class="align-middle mr-2 fas fa-fw fa-list-alt"></i> <span class="align-middle">ACCESS</span>
+                    </span>
+                </a>
             </li> --}}
+            
+            
         </ul>
     </div>
 </nav>
