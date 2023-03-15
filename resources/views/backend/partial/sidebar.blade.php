@@ -27,49 +27,32 @@
                 <ul id="employee_dashboard" class="sidebar-dropdown list-unstyled collapse" data-parent="#sidebar">
                     <li class="list-title">MAIN</li>
                     <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/dashboard">OVERVIEW</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/reimbursement">APPLY FOR REIMBURSEMENT</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/employee_profile">EMPLOYEE PROFILE</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/leave_management">LEAVE MANAGEMENT</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/masterlist/employee">EMPLOYEE TIMESHEET</a></li>
                 </ul>
 
                 <a href="#overtime_application" data-toggle="collapse" class="sidebar-link collapsed">
                     <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-user-clock"></i> <span class="align-middle">OVERTIME APPLICATION</span>
+                        <i class="align-middle mr-2 fas fa-fw fa-user-clock"></i> <span class="align-middle">APPLICATIONS</span>
                     </span>
                 </a>
                 <ul id="overtime_application" class="sidebar-dropdown list-unstyled collapse" data-parent="#sidebar">
-                    <li class="list-title">OVERTIME APPLICATION</li>
+                    <li class="list-title">APPLICATIONS</li>
                     <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/overtime_application">APPLY FOR OVERTIME</a></li>
-                </ul>
-
-                <a href="#leave_application" data-toggle="collapse" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-calendar-times"></i> <span class="align-middle">LEAVE APPLICATION</span>
-                    </span>
-                </a>
-                <ul id="leave_application" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-                    <li class="list-title">LEAVE APPLICATION</li>
                     <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/leave_application">APPLY FOR LEAVE</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/leave_management">LEAVE MANAGEMENT</a></li>
-                </ul>
-
-                <a href="#timekeeping_application" data-toggle="collapse" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-clock"></i> <span class="align-middle">TIMEKEEPING APPLICATION</span>
-                    </span>
-                </a>
-                <ul id="timekeeping_application" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-                    <li class="list-title">TIMEKEEPING APPLICATION</li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/masterlist/employee">EMPLOYEE TIMESHEET</a></li>
-                </ul>
-                <a href="#leave_monetization" data-toggle="collapse" class="sidebar-link collapsed">
-                    <span class="item">
-                        <i class="align-middle mr-2 fas fa-fw fa-money-bill"></i> <span class="align-middle">LEAVE MONETIZATION APPLICATION</span>
-                    </span>
-                </a>
-                <ul id="leave_monetization" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-                    <li class="list-title">LEAVE MONETIZATION APPLICATION</li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/reimbursement">APPLY FOR REIMBURSEMENT</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/leave_monetization">APPLY FOR LEAVE MONETIZATION</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/official_business">APPLY FOR OFFICIAL BUSINESS</a></li>
+
                 </ul>
-                <a href="#user_reports" data-toggle="collapse" class="sidebar-link collapsed">
+            </li>
+
+            <li class="sidebar-header">
+                REPORTS
+            </li>
+            <li class="sidebar-item"> 
+            <a href="#user_reports" data-toggle="collapse" class="sidebar-link collapsed">
                     <span class="item">
                         <i class="align-middle mr-2 fas fa-fw fa-file-contract"></i> <span class="align-middle">REPORTS</span>
                     </span>
@@ -77,8 +60,15 @@
                 <ul id="user_reports" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
                     <li class="list-title">REPORTS</li>
                     <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/employee_reports">EMPLOYEE REPORTS</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/ess/employee/payroll_register">PAYROLL REGISTER</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/ess/employee/attendance_records">ATTENDANCE RECORDS</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/ess/employee/sss_contributions">SSS CONTRIBUTIONS</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/ess/employee/pagibig_contributions">PAG-IBIG CONTRIBUTIONS</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/ess/employee/philhealth_contributions">PhilHealth CONTRIBUTIONS</a></li>
+
                 </ul>
             </li>
+
             {{-- <li class="sidebar-item">
                 <a href="#setup" data-toggle="collapse" class="sidebar-link collapsed">
                     <span class="item">

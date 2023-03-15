@@ -290,12 +290,28 @@ Route::get('/payroll/employee/leave_monetization', function() {
     return view('backend.pages.payroll.transaction.employee.leave_monetization');
 });
 
+Route::get('/payroll/employee/official_business', function() {
+    return view('backend.pages.payroll.transaction.employee.official_business');
+});
+
 Route::get('/payroll/employee/leave_management', function() {
     return view('backend.pages.payroll.transaction.employee.leave_management');
 });
 
 Route::get('/payroll/employee/employee_reports', function() {
     return view('backend.pages.payroll.transaction.employee.employee_reports');
+});
+
+Route::get('/ess/employee/sss_contributions', function() {
+    return view('backend.pages.payroll.transaction.employee.reports.sss_contributions');
+});
+
+Route::get('/ess/employee/pagibig_contributions', function() {
+    return view('backend.pages.payroll.transaction.employee.reports.pagibig_contributions');
+});
+
+Route::get('/ess/employee/philhealth_contributions', function() {
+    return view('backend.pages.payroll.transaction.employee.reports.philhealth_contributions');
 });
 
 // END EMPLOYEE UI
