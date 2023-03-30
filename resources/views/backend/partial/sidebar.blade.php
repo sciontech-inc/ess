@@ -27,9 +27,9 @@
                 <ul id="employee_dashboard" class="sidebar-dropdown list-unstyled collapse" data-parent="#sidebar">
                     <li class="list-title">MAIN</li>
                     <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/dashboard">OVERVIEW</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/employee_profile">EMPLOYEE PROFILE</a></li>
+                    <!-- <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/employee_profile">EMPLOYEE PROFILE</a></li> -->
                     <li class="sidebar-item"><a class="sidebar-link" href="/payroll/employee/leave_management">LEAVE MANAGEMENT</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/masterlist/employee">EMPLOYEE TIMESHEET</a></li>
+                    <!-- <li class="sidebar-item"><a class="sidebar-link" href="/masterlist/employee">EMPLOYEE TIMESHEET</a></li> -->
                 </ul>
 
                 <a href="#overtime_application" data-toggle="collapse" class="sidebar-link collapsed">

@@ -314,6 +314,15 @@ Route::get('/ess/employee/philhealth_contributions', function() {
     return view('backend.pages.payroll.transaction.employee.reports.philhealth_contributions');
 });
 
+Route::get('/ess/employee/payroll_register', function() {
+    return view('backend.pages.payroll.transaction.employee.reports.payroll_register');
+});
+
+Route::get('/ess/employee/attendance_records', function() {
+    return view('backend.pages.payroll.transaction.employee.reports.attendance_records');
+});
+
+
 // END EMPLOYEE UI
 
 Route::post('/sender', function() {
