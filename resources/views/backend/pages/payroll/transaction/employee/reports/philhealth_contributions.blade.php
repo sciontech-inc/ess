@@ -28,44 +28,44 @@
                                 <th>Payment Status</th>
                             </tr>
                             <tr>
-                                <th>Monthly Salary</th>
-                                <th>PhilHealth Contribution</th>
-                                <th>PhilHealth ID No.</th>
-                                <th>Reporting Period</th>
-                                <th>Employer Contribution</th>
-                                <th>Payment Status</th>
+                                <td>PHP 30,000.00</td>
+                                <td>PHP 100.00</td>
+                                <td>11-02315-4</td>
+                                <td>MARCH 01, 2023 - MARCH 31, 2023</td>
+                                <td>PHP 100.00</td>
+                                <td>PAID</td>
                             </tr>
                             <tr>
-                                <th>Monthly Salary</th>
-                                <th>PhilHealth Contribution</th>
-                                <th>PhilHealth ID No.</th>
-                                <th>Reporting Period</th>
-                                <th>Employer Contribution</th>
-                                <th>Payment Status</th>
+                                <td>PHP 30,000.00</td>
+                                <td>PHP 100.00</td>
+                                <td>11-02315-4</td>
+                                <td>MARCH 01, 2023 - MARCH 31, 2023</td>
+                                <td>PHP 100.00</td>
+                                <td>PAID</td>
                             </tr>
                             <tr>
-                                <th>Monthly Salary</th>
-                                <th>PhilHealth Contribution</th>
-                                <th>PhilHealth ID No.</th>
-                                <th>Reporting Period</th>
-                                <th>Employer Contribution</th>
-                                <th>Payment Status</th>
+                                <td>PHP 30,000.00</td>
+                                <td>PHP 100.00</td>
+                                <td>11-02315-4</td>
+                                <td>MARCH 01, 2023 - MARCH 31, 2023</td>
+                                <td>PHP 100.00</td>
+                                <td>PAID</td>
                             </tr>
                             <tr>
-                                <th>Monthly Salary</th>
-                                <th>PhilHealth Contribution</th>
-                                <th>PhilHealth ID No.</th>
-                                <th>Reporting Period</th>
-                                <th>Employer Contribution</th>
-                                <th>Payment Status</th>
+                                <td>PHP 30,000.00</td>
+                                <td>PHP 100.00</td>
+                                <td>11-02315-4</td>
+                                <td>MARCH 01, 2023 - MARCH 31, 2023</td>
+                                <td>PHP 100.00</td>
+                                <td>PAID</td>
                             </tr>
                             <tr>
-                                <th>Monthly Salary</th>
-                                <th>PhilHealth Contribution</th>
-                                <th>PhilHealth ID No.</th>
-                                <th>Reporting Period</th>
-                                <th>Employer Contribution</th>
-                                <th>Payment Status</th>
+                                <td>PHP 30,000.00</td>
+                                <td>PHP 100.00</td>
+                                <td>11-02315-4</td>
+                                <td>MARCH 01, 2023 - MARCH 31, 2023</td>
+                                <td>PHP 100.00</td>
+                                <td>PAID</td>
                             </tr>
                         </table>
                         </div>
